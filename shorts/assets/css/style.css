@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Agbalumo&family=Anton&family=Bangers&family=Coiny&family=Concert+One&family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --Quicksand: Quicksand;
+    --Abel: Abel;
+    --Anton: Anton;
+    --Bangers: Bangers;
+    --Coiny: Coiny;
+    --Agbalumo: Agbalumo;
+    --one: Concert One;
+}
+.one{
+    font-family: var(--one);
+}
+body{
+    background: #F1F2F4;
+    font-family: var(--Quicksand);
+    scroll-behavior: smooth;
+}
+.domain .hi{
+    color: #8B4AF7;
+    font-family: var(--one);
+    font-size: 30px;
+}
+.domain h1{
+    color: #0D0D0F;
+    font-family: var(--one);
+    font-size: 30px;
+}
+.logo-inner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.domain .logo{
+    height: 40px;
+    width: 40px;
+    background: #8B4AF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.shortener span{
+    font-size: 18px;
+    font-family: var(--Quicksand);
+    font-weight: 600;
+    color: #0D0D0F;
+}
+input::placeholder{
+    font-weight: 600;
+    color: #0D0D0F;
+}
+input [type=url]{
+    color: #0D0D0F;
+    font-weight: 600;
+}
+.bb{
+    border: 1px solid #8B4AF7 !important;
+}
+.fw-500{
+    font-weight: 500;
+}
+.btn-short{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #8B4AF7;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #9b67ee;
+}
+.form-control{
+    font-weight: 500;
+    font-size: 17px;
+}
+.icons{
+    color: #8B4AF7;
+}
+.footer-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .logo{
+    height: 30px;
+    width: 30px;
+    background: #8B4AF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+}
+.footer .hi{
+    color: #8B4AF7;
+    font-family: var(--one);
+    font-size: 20px;
+}
+.footer .line{
+    height: 2.5px;
+    width: 50px;
+    background: black;
+    border-radius: 26px;
+}
+.footer .copyright{
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer a{
+    color: #8B4AF7;
+    font-size: 13px;
+}
